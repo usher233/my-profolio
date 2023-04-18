@@ -10,7 +10,7 @@ const Header = () => {
         <div id="logo" className="pl-4 font-bold font-serif">
           <a href="/"><span className="text-blue-500">V</span>IKTOR <span className="text-red-500">W</span>U</a>
         </div>
-        <div className="gap-2">
+        <div className="gap-2 hidden lg:block">
           <a
             href="/about"
             className="px-3 hover:underline-offset-8 hover:underline hover:text-violet-400 transition-all"
