@@ -13,7 +13,7 @@ const Header = () => {
         <div className="gap-2 hidden lg:block">
           <a
             href="/about"
-            className="px-3 hover:underline-offset-8 hover:underline hover:text-violet-400 transition-all"
+            className="px-3 hover:text-violet-400 transition-all"
           >
             ABOUT
           </a>
@@ -24,7 +24,7 @@ const Header = () => {
             CONTACT
           </a>
           <a
-            href="/projects"
+            href="https://github.com/usher233"
             className="px-3 hover:text-red-400 transition-all"
           >
             PROJECTS
