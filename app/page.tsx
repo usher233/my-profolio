@@ -1,17 +1,17 @@
 import { Inter } from "next/font/google";
-import Header from "./components/Header";
+import Hero from "./components/Hero";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className=" relative w-full max-w-lg translate-y-60">
-      <a href="https://github.com/usher233">
-        <div id="blur-light" className="lg:hidden translate-x-40">
-          <div className="filter blur-2xl absolute bg-purple-300 rounded-full top-0 w-72 h-72 -left-4 mix-blend-multiplyfilter blur-2xl animate-blob"></div>
-          <div className="filter blur-2xl absolute bg-yellow-300 rounded-full top-0 w-72 h-72 -right-4 mix-blend- filter blur-2xl animate-blob"></div>
-          <div className="filter blur-2xl absolute bg-pink-300 rounded-full mix-blend-multiply w-72 h-72 left-20 animate-blob"></div>
-        </div>
-        </a>
+    <main className=" relative w-full grid grid-cols-2">
+      <Hero />
+      <div id="Hero intro" className="hidden z-40 text-7xl  lg:block py-32 font-serif mt-40">
+        <div className="block hover:first-letter:text-red-700 hover:animate-pulse transition-all">Welcome</div>
+        <div className="text-4xl  first-letter:text-7xl animate-pulse transition-all ml-4 hover:first-letter:text-blue-400">To the page of </div>
+        <div className="text-4xl  first-letter:text-7xl animate-pulse transition-all ml-4 hover:first-letter:text-pink-400">Future frontend developer</div>
+      </div>
+      
     </main>
   );
 }
