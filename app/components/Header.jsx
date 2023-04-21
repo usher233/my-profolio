@@ -1,4 +1,6 @@
 import Logo from "../../public/logo.png";
+import AnimatedTabs from './AnimatedTabs'
+
 
 const Header = () => {
   return (
@@ -10,7 +12,9 @@ const Header = () => {
         <div id="logo" className="pl-4 font-bold font-serif">
           <a href="/"><span className="text-blue-500">V</span>IKTOR <span className="text-red-500">W</span>U</a>
         </div>
-        <div className="gap-4 hidden lg:block">
+        {
+        // Original header elements
+        /* <div className="gap-4 hidden lg:block">
           <a
             href="/about"
             className="px-3 hover:text-violet-400 transition-all"
@@ -29,6 +33,9 @@ const Header = () => {
           >
             PROJECTS
           </a>
+        </div> */}
+        <div className="hidden lg:block">
+        <AnimatedTabs />
         </div>
         <div className="my-2">
           <a
