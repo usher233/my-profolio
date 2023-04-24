@@ -1,6 +1,24 @@
 const About = () => {
     return ( 
-        <div className="relative">
+        <div className="relative bg-black text-7xl">
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
+            Who are you?
             Who are you?
         </div>
      );
