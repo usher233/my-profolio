@@ -1,16 +1,14 @@
-import Logo from "../../public/logo.png";
 import AnimatedTabs from './AnimatedTabs'
-
 
 const Header = () => {
   return (
-    <div className="w-full fixed bg-white z-50">
+    <div className="w-full fixed bg-white/90 z-50">
       <div
         id="header-wraper"
         className="items-center font-bold shadow-lg px-3 py-3 font-serif flex flex-row justify-between "
       >
         <div id="logo" className="pl-4 font-bold font-serif">
-          <a href="/"><span className="text-blue-500">V</span>IKTOR <span className="text-red-500">W</span>U</a>
+          <a href='/'><span className="text-blue-500">V</span>IKTOR <span className="text-red-500">W</span>U</a>
         </div>
         {
         // Original header elements

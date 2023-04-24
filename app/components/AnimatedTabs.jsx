@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
 import { motion } from "framer-motion";
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 
 let tabs = [
+  { id: "/", label: "Home" },
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
@@ -12,27 +13,29 @@ let tabs = [
 ];
 
 const AnimatedTabs = () => {
-  let [activeTab, setActiveTab] = useState(tabs[0].id);
-
+  let [activeTab, setActiveTab] = useState();
 
   const handleClick = (e) => {
     e.preventDefault();
-    router.push('/about');
+    router.push("/about");
   };
-
 
   return (
     <div className="flex space-x-1">
       {tabs.map((tab) => (
-        <button
-        href={'/about'}
+        <Link
+          to={`${tab.id}`}
+          spy={true}
+          smooth={true}
+          offset={-150}
+          duration={500}
           key={tab.id}
           onClick={() => {
-            setActiveTab(tab.id)
-        }}
+            setActiveTab(tab.id);
+          }}
           className={`${
             activeTab === tab.id ? "" : "hover:text-black/60"
-          } relative rounded-full px-3 py-1.5 text-sm bold  text-blue transition font-serif `}
+          } relative rounded-full px-3 py-1.5 text-sm bold  text-blue transition font-serif cursor-pointer `}
           style={{
             WebkitTapHighlightColor: "transparent",
           }}
@@ -46,11 +49,10 @@ const AnimatedTabs = () => {
             />
           )}
           {tab.label}
-        </button>
+        </Link>
       ))}
     </div>
   );
-}
+};
 
-
-export default AnimatedTabs
+export default AnimatedTabs;
