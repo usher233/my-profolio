@@ -1,4 +1,5 @@
-import Hero from "./components/Hero";
+import About from "./sections/About";
+import Hero from "./sections/Hero";
 
 
 export default function Home() {
@@ -13,63 +14,8 @@ export default function Home() {
         
       </div>
       
-      <div id="about" className="w-screen h-screen bg-black text-white text-7xl">
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
-        Hellow world
+      <div id="about" className="w-screen h-screen text-black text-7xl">
+        <About />
       </div>
     </main>
   );
