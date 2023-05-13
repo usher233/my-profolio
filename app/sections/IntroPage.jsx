@@ -22,16 +22,15 @@ const IntroPage = () => {
         id="Intro"
         className=" z-40 text-7xl  lg:block pt-32 font-serif mt-40 h-screen text-center "
       >
-        <div className="hidden md:block delay-500 first-letter:text-red-700 transition-all">
+        <div className=" md:block delay-500 first-letter:text-red-700 transition-all">
           Hello! I am Viktor.
         </div>
         <br />
-        <div className="hidden md:block text-7xl delay-75 first-letter:text-purple-700 transition-all ml-4">
+        <div className=" md:block text-7xl delay-75 first-letter:text-purple-700 transition-all ml-4">
           I am
         </div>
         <br />
         <AnimatedText />
-        <div className="md:hidden text-3xl"> Hello! I am Viktor.</div>
       </div>
     </motion.div>
   );
