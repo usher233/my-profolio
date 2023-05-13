@@ -6,19 +6,19 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section className={`relative z-10 top-0`}>
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col `}
     >
       <TypingText title="| About Me" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-secondary-white text-center "
       >
         <span className="font-bold text-red-300 ">I</span> am a skilled and
         creative frontend developer, now a Master student from VU Amsterdam. <br /><br />

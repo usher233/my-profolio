@@ -1,22 +1,39 @@
+'use client';
+
 import Hero from './Hero';
+import AnimatedText from '../components/AnimatedText';
+import { motion } from 'framer-motion';
+
+import styles from '../styles';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const IntroPage = () => {
   return (
-    <div className='grid grid-cols-2 w-full '>
+    <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="grid grid-cols-2 w-full h-full "
+    >
+      <div className="gradient-01 z-0" />
       <Hero />
       <div
         id="Intro"
         className=" z-40 text-7xl  lg:block pt-32 font-serif mt-40 h-screen text-center "
       >
-        <div className="block delay-500 hover:first-letter:text-red-700 transition-all">
-          Hello, and welcome
+        <div className="hidden md:block delay-500 first-letter:text-red-700 transition-all">
+          Hello! I am Viktor.
         </div>
         <br />
-        <div className="text-7xl delay-75 transition-all ml-4 hover:first-letter:text-blue-400">
-          To the page of
+        <div className="hidden md:block text-7xl delay-75 first-letter:text-purple-700 transition-all ml-4">
+          I am
         </div>
+        <br />
+        <AnimatedText />
+        <div className="md:hidden text-3xl"> Hello! I am Viktor.</div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

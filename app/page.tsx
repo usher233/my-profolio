@@ -8,7 +8,7 @@ export default function Home() {
     <main id="/" className="smooth-scroll snap-both ">
       <Header />
       <IntroPage />
-      <div id="about" className="w-screen h-screen text-black text-7xl">
+      <div id="about" className="w-full h-full">
         <About />
       </div>
     </main>

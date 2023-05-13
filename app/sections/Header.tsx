@@ -20,7 +20,6 @@ const Header = () => {
             className=" p-4 hover:text-white hover:bg-black rounded-2xl text-black bg-white transition-all"
             href="/"
           >
-            Search<span className="bg-gradient-to-r from-cyan-500 via-violet-500 to-green-500 bg-clip-text text-transparent "> Something Fun</span> ? 
           </a>
         </div>
       </div>
