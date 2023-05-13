@@ -18,21 +18,17 @@ const About = () => (
       <TypingText title="| About Me" textStyles="text-center" />
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-secondary-white"
       >
         <span className="font-bold text-red-300 ">I</span> am a skilled and
-        creative frontend developer, now a Master student from VU Amsterdam. <br />I bring a collaborative spirit to
-        every project, ensuring that each task is handled with maximum
-        efficiency and the end product meets the highest standards. My skills
-        span various programming languages and tools, including but not limited
-        to JavaScript, React, HTML, CSS, and Bootstrap. I am consistently
-        responsive in my communications and believe that transparency, regular
-        updates, and open dialogue are the bedrock of successful team projects.
-        While I spend a lot of my time immersed in code, I also enjoy immersing
+        creative frontend developer, now a Master student from VU Amsterdam. <br /><br />
+        <span className="font-bold text-green-300 ">I</span> bring a collaborative spirit to
+        every project, ensuring that each task is handled with maximum efficiency and the end product meets the highest standards. <br /><br />
+        <span className="font-bold text-yellow-300 ">M</span>y skills span various programming languages and tools, including but not limited
+        to JavaScript, HTML, CSS. <br /><br />
+        <span className="font-bold text-indigo-300 ">W</span>hile I spend a lot of my time immersed in code, I also enjoy immersing
         myself in the world of video games, with Civilization 6 being a
-        particular favorite. This hobby not only serves as a great way to
-        unwind, but also fuels my creativity, helping me to think outside the
-        box and come up with novel solutions to programming challenges.
+        particular favorite.
       </motion.p>
       
       
