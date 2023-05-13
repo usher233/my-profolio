@@ -7,7 +7,7 @@ export default function AnimatedText() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 2000;
+  const period = 1000;
   const toRotate = ['Frontend Developer', 'Problem Solver', 'Master Student'];
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function AnimatedText() {
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(400);
     }
   };
   return <div className="first-letter:text-blue-500 ">{text}</div>;
