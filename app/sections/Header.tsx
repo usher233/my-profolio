@@ -1,4 +1,4 @@
-import AnimatedTabs from './AnimatedTabs'
+import AnimatedTabs from '../components/AnimatedTabs'
 
 const Header = () => {
   return (

@@ -20,18 +20,26 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className='font-bold text-red-300 '>I</span> am a skilled and creative Master's student at VU Amsterdam University, specializing in Frontend Development with a keen eye for detail and a passion for solving problems in innovative ways. I bring a collaborative spirit to every project, ensuring that each task is handled with maximum efficiency and the end product meets the highest standards.
-
-My skills span various programming languages and tools, including but not limited to JavaScript, React, HTML, CSS, and Bootstrap. I am consistently responsive in my communications and believe that transparency, regular updates, and open dialogue are the bedrock of successful team projects.
-
-While I spend a lot of my time immersed in code, I also enjoy immersing myself in the world of video games, with Civilization 6 being a particular favorite. This hobby not only serves as a great way to unwind, but also fuels my creativity, helping me to think outside the box and come up with novel solutions to programming challenges.
+        <span className="font-bold text-red-300 ">I</span> am a skilled and
+        creative frontend developer, now a Master student from VU Amsterdam. <br />I bring a collaborative spirit to
+        every project, ensuring that each task is handled with maximum
+        efficiency and the end product meets the highest standards. My skills
+        span various programming languages and tools, including but not limited
+        to JavaScript, React, HTML, CSS, and Bootstrap. I am consistently
+        responsive in my communications and believe that transparency, regular
+        updates, and open dialogue are the bedrock of successful team projects.
+        While I spend a lot of my time immersed in code, I also enjoy immersing
+        myself in the world of video games, with Civilization 6 being a
+        particular favorite. This hobby not only serves as a great way to
+        unwind, but also fuels my creativity, helping me to think outside the
+        box and come up with novel solutions to programming challenges.
       </motion.p>
-
+      
+      
       <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
-        src="/arrow-down.svg"
+        src="https://media.giphy.com/media/WoztRT1FFeliwstmao/giphy.gif"
         alt="arrow down"
-        className="w-[18px] h-[28px] object-contain mt-7"
+        className="w-[100px] h-[100px] object-contain mt-7"
       />
     </motion.div>
   </section>
