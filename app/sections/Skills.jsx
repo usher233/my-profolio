@@ -9,9 +9,10 @@ import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
 
 const Skills = () => {
-    const [active, setActive] = useState('world-2')
+  const [active, setActive] = useState('world-2');
   return (
     <section className={`${styles.paddings} mt-24`} id="skills">
+      <div className="gradient-03" />
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -22,7 +23,6 @@ const Skills = () => {
         <TypingText title="| Skills" textStyles="text-center" />
 
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-            
           {skills.map((skills, index) => (
             <Card
               key={skills.id}

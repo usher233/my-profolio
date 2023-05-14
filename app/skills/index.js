@@ -1,24 +1,23 @@
 const skills = [
     {
       id: 'world-1',
-      imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',
-      title: 'JavaScript',
+      imgUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Circle-icons-tools.svg',
+      title: 'Tools',
+      contents: ['Git', 'Vim','Docker',''],
     },
     {
       id: 'world-2',
-      imgUrl: 'https://shzhangji.com/images/restful-api.png',
-      title: 'REST API',
+      imgUrl: '/html-1.svg',
+      title: 'Languages',
+      contents: ['JavaScript/TypeScript', 'HTML', 'CSS', 'Python', 'Java'],
     },
     {
       id: 'world-3',
-      imgUrl: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*94Z17dA4rkLL5pOon2ZbCw.jpeg',
-      title: 'Next.js',
+      imgUrl: 'https://raw.githubusercontent.com/wappalyzer/wappalyzer/e0c0009302ec8880aa24217dd7281898a9833b40/src/drivers/webextension/images/icons/Next.js.svg',
+      title: 'Libraries and Frameworks',
+      contents: ['Next.js', 'React', 'Tailwind CSS', 'Redux', 'Jest'],
     },
-    {
-      id: 'world-4',
-      imgUrl: 'https://tailwindcss.com/_next/static/media/tailwindui-small@75.8bb955b2.jpg',
-      title: 'Tailwind css',
-    },
+
   ];
 
 export default skills;

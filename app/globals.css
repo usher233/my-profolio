@@ -40,7 +40,18 @@
     background: #7aebfb;
     filter: blur(190px);
   }
+ 
+  .gradient-03 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    left: 0px;
   
+    background: #fed766;
+    filter: blur(190px);
+  } 
+
   .glassmorphism {
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);

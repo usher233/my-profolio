@@ -20,14 +20,14 @@ const IntroPage = () => {
       <Hero />
       <div
         id="Intro"
-        className=" z-40 text-7xl  lg:block pt-32 font-serif mt-40 h-screen text-center "
+        className=" z-40 text-4xl md:text-7xl text-start lg:block pt-32 font-serif mt-40 mb-40 md:h-screen md:text-center "
       >
-        <div className=" md:block delay-500 first-letter:text-red-700 transition-all">
+        <div className="block delay-500 first-letter:text-red-700 transition-all">
           Hello! I am Viktor.
         </div>
         <br />
-        <div className=" md:block text-7xl delay-75 first-letter:text-purple-700 transition-all ml-4">
-          I am
+        <div className="delay-75 first-letter:text-purple-700 transition-all ml-4">
+          I am A
         </div>
         <br />
         <AnimatedText />

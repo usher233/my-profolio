@@ -42,5 +42,5 @@ export default function AnimatedText() {
       setDelta(400);
     }
   };
-  return <div className="first-letter:text-blue-500 ">{text}</div>;
+  return <div className="first-letter:text-blue-500  ">{text}</div>;
 }
