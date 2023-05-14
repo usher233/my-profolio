@@ -16,11 +16,11 @@ const IntroPage = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="grid grid-cols-2 w-full h-full "
     >
-      <div className="gradient-01 z-0" />
+      <div className="gradient-01 z-0 overflow-hidden" />
       <Hero />
       <div
         id="Intro"
-        className=" z-40 text-4xl md:text-7xl text-start lg:block pt-32 font-serif mt-40 mb-40 md:h-screen md:text-center "
+        className=" z-40 text-4xl md:text-7xl text-start lg:block pt-32 font-serif mt-40 mb-80 md:h-screen md:text-center "
       >
         <div className="block delay-500 first-letter:text-red-700 transition-all">
           Hello! I am Viktor.

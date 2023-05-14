@@ -12,7 +12,7 @@ const Skills = () => {
   const [active, setActive] = useState('world-2');
   return (
     <section className={`${styles.paddings} mt-24`} id="skills">
-      <div className="gradient-03" />
+      {/* <div className="gradient-03" /> */}
       <motion.div
         variants={staggerContainer}
         initial="hidden"

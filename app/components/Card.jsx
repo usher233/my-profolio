@@ -16,7 +16,7 @@ const Card = ({ id, imgUrl, contents, title, index, active, handleClick }) => (
     <motion.img
       src={imgUrl}
       alt={title}
-      className={`${active === id ? 'object-contain' : 'object-cover'} absolute transform transition duration-300 ease-in-out w-full h-full rounded-[24px]`}
+      className={`${active === id ? 'object-contain opacity-40' : 'object-cover'} absolute transform transition duration-300 ease-in-out w-full h-full rounded-[24px]`}
     />
     
     {active !== id ? (
@@ -29,10 +29,10 @@ const Card = ({ id, imgUrl, contents, title, index, active, handleClick }) => (
         {title}
       </h3>
     ) : (
-      <div className="absolute top-0 h-full glassmorphism p-8 transform transition duration-300 ease-in-out justify-start w-full flex-col  rounded-b-[24px] ">
+      <div className="absolute top-0 h-full p-8 transform transition duration-300 ease-in-out justify-start w-full flex-col  rounded-b-[24px] ">
         
         
-        <h2 className="mt-[24px]  font-semibold sm:text-4xl md:text-6xl text-[24px] text-blue-400 ">
+        <h2 className="mt-[24px]  font-semibold sm:text-4xl md:text-6xl text-[24px] text-blue-400">
           {title}
         </h2>
         <ul>
