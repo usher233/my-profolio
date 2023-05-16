@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { TypingText } from '../components/CustomTexts';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { truncate } from 'fs/promises';
 
 const About = () => (
   <section className={`relative z-10 top-0 w-full `}>

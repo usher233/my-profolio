@@ -35,7 +35,7 @@ const Card = ({ id, imgUrl, contents, title, index, active, handleClick }) => (
         <h2 className="mt-[24px]  font-semibold sm:text-4xl md:text-6xl text-[24px] text-blue-400">
           {title}
         </h2>
-        <ul>
+        <ul className='grid grid-cols-2'>
       {contents.map((content, index) => (
         <li key={id} className='text-black py-3 md:p-6 md:text-4xl font-semibold text-bold'>{content}</li>
       ))}
