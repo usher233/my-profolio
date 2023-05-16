@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { TypingText } from '../components/CustomTexts';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import { truncate } from 'fs/promises';
 
 const About = () => (
   <section className={`relative z-10 top-0 w-full `}>
@@ -12,7 +13,7 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col `}
     >
       <TypingText title="| About Me" textStyles="text-center" />
