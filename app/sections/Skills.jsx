@@ -11,7 +11,7 @@ import { staggerContainer } from '../utils/motion';
 const Skills = () => {
   const [active, setActive] = useState('skill-2');
   return (
-    <section className={`${styles.paddings} mt-24`} id="skills">
+    <section className={`${styles.paddings} h-screen`} id="skills">
       {/* <div className="gradient-03" /> */}
       <motion.div
         variants={staggerContainer}

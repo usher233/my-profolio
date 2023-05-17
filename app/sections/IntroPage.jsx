@@ -20,7 +20,7 @@ const IntroPage = () => {
       <Hero />
       <div
         id="Intro"
-        className=" z-40 text-4xl md:text-7xl text-start lg:block pt-72 font-serif mb-80 md:mb-0 md:h-screen md:text-center "
+        className=" z-40 text-4xl md:text-7xl text-start lg:block pt-72 font-serif h-screen mb-12 md:mb-0  md:text-center "
       >
         <div className="block delay-500 first-letter:text-red-700 transition-all">
           Hello! I am Viktor.
