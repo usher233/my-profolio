@@ -9,7 +9,7 @@ import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
 
 const Skills = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState('skill-2');
   return (
     <section className={`${styles.paddings} mt-24`} id="skills">
       {/* <div className="gradient-03" /> */}
