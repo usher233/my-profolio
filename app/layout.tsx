@@ -2,8 +2,8 @@ import Header from './sections/Header'
 import './globals.css'
 
 export const metadata = {
-  title: 'ViktorPortfolio',
-  description: 'My first portfolio',
+  title: "Viktor's Portfolio",
+  description: 'Where a dream start',
 }
 
 export default function RootLayout({
