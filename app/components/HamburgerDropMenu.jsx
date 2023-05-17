@@ -27,7 +27,7 @@ const HamburgerDropMenu = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Image
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
+            src="/Hamburger_icon.svg"
             width={25}
             height={25}
             alt="burger"
@@ -47,6 +47,19 @@ const HamburgerDropMenu = () => {
             aria-orientation="vertical"
             aria-labelledby="menu-button"
           >
+            <Link
+              to={`/`}
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              key={'about'}
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+              role="menuitem"
+              onClick={handleItemClick}
+            >
+              Home
+            </Link>
             <Link
               to={`about`}
               spy={true}

@@ -6,7 +6,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => (
-  <section className={`relative z-10 top-0 w-full `}>
+  <section className={`relative z-10 top-0 w-full md:mt-20 `}>
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer}

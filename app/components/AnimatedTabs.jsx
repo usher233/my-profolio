@@ -13,7 +13,7 @@ let tabs = [
 ];
 
 const AnimatedTabs = () => {
-  let [activeTab, setActiveTab] = useState();
+  let [activeTab, setActiveTab] = useState("/");
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -27,10 +27,10 @@ const AnimatedTabs = () => {
           to={`${tab.id}`}
           spy={true}
           smooth={true}
-          offset={-150}
+          offset={-200}
           duration={500}
           key={tab.id}
-          onClick={() => {
+          onSetActive={() => {
             setActiveTab(tab.id);
           }}
           className={`${
